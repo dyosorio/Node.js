@@ -1,9 +1,5 @@
-/*
-HackYourTemperature
 
-Create a web server, using Express.js.
-The necessary modules for this project: they are express (our web server), express-handlebars (our templating engine) and axios.
-*/
+//HackYourTemperature App
 
 //Set up your web server using Express (creating an Express instance
 const express = require('express');
