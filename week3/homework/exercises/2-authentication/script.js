@@ -15,7 +15,7 @@ async function printBooks() {
   // YOUR CODE GOES IN HERE
   try {
     const response = await fetch('https://restapiabasicauthe-sandbox.mxapps.io/api/books', {
-      headers: { 'Authorization': 'Basic YWRtaW46aHZnWDhLbFZFYQ==' }
+      headers: { Authorization : 'Basic YWRtaW46aHZnWDhLbFZFYQ==' }
     })
     const data = await response.json()
     console.log(data)

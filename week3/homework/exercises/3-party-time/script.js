@@ -11,11 +11,11 @@
 
 const fetch = require('node-fetch');
 
-async function makeReservation() {
+async function makeReservation(reservationName, numberOfPeople) {
   // YOUR CODE GOES IN HERE
   const body = {
-    "name": "John Doe",
-    "numberOfPeople": 3
+    name : reservationName,
+    numberOfPeople : numberOfPeople
   }
 
   try {
@@ -31,4 +31,4 @@ async function makeReservation() {
   }
 }
 
-makeReservation();
+makeReservation('Jane Doe', 3);
